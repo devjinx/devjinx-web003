@@ -13,6 +13,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      margin: {
+        '100': '100px', // Add custom margin value here
+      },
     },
   },
   plugins: [],
