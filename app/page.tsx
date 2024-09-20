@@ -1,9 +1,14 @@
 import Image from "next/image";
+import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 
-export default function Home() {
+
+export default function index() {
   return (
+    <>
+    <Navbar />
     <div className="flex justify-center mt-[100px] min-h-screen">
-      <div id="left" className="flex-1 max-w-[500px] px-4" style={{ marginBottom: '300px' }}>
+      <div id="left" className="flex-1 max-w-[500px] px-4" style={{ marginBottom: ' 500px' }}>
         <main>
           <header>
             <h1 className="text-3xl font-bold mb-2 text-white">
@@ -26,5 +31,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
