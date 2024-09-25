@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-link {
+    color: white; 
+    transition: color 0.3s ease; 
+  }
+  
+  #about:target ~ nav .nav-link[href="#about"],
+  #experience:target ~ nav .nav-link[href="#experience"],
+  #project:target ~ nav .nav-link[href="#project"] {
+    color: #5dfdcb;
+  }
+  
