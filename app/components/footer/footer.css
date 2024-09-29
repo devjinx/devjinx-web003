@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 footer{
-    margin-bottom: 25px;
+    background-color: #1a252f;
 }

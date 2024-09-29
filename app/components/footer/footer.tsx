@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     const [currentYear] = useState<number>(new Date().getFullYear());
     
     return (
-        <footer className="text-white text-center">
+        <footer className="w-full text-white text-center py-6">
             <div className="mt-4 sm:mt-0">
                 Copyright &copy; {currentYear} DEVJINX
             </div>
@@ -15,4 +15,4 @@ const Footer: React.FC = () => {
     );
 };
 
-export default Footer;
+export default Footer;  
