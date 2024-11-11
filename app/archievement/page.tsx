@@ -6,7 +6,7 @@ export default function archive() {
     <>
       <Navbar />
       <div>
-        <h1 className="text-white">blog</h1>
+        <h1 className="text-white">archive</h1>
     </div>
     <Footer />
     </>

@@ -8,11 +8,11 @@ const Footer: React.FC = () => {
     
     return (
         <footer className="w-full text-white text-center py-6">
-            <div className="mt-4 sm:mt-0">
+            <div className="mt-2 sm:mt-0">
                 Copyright &copy; {currentYear} DEVJINX
             </div>
         </footer>
     );
 };
 
-export default Footer;  
+export default Footer;      
