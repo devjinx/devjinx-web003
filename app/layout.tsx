@@ -1,3 +1,7 @@
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+
 import type { Metadata } from "next";
 import { Kanit } from 'next/font/google'
 import "./globals.css";
