@@ -14,7 +14,7 @@ const kanit = Kanit({
 export const metadata: Metadata = {
   title: "DEVJINX",
   icons: {
-    icon: '/public/favicon.ico',
+    icon: '/favicon.ico',
   },
 };
 
