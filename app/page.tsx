@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <>
       <Navbar />
-      <div id="center" className="flex justify-center py-96 min-h-screen">
+      <div id="about" className="flex justify-center py-96 min-h-screen">
         <div id="Main Content" className="max-w-screen-lg px-4 mx-auto">
           <main>
             <h1 className="text-4xl font-bold mb-2 text-white">

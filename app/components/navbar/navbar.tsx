@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '/public/favicon.ico';
+import logo from '/public/index.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -36,9 +36,9 @@ const Navbar = () => {
           {/* Navbar Links for Desktop */}
           <div className="hidden sm:flex sm:ml-auto space-x-4">
             <Link href="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-            <Link href="#" className="text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
-            <Link href="#" className="text-white px-3 py-2 rounded-md text-sm font-medium">Projects</Link>
-            <Link href="#" className="text-white px-3 py-2 rounded-md text-sm font-medium">Experience</Link>
+            <Link href="#about" className="text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
+            <Link href="#project" className="text-white px-3 py-2 rounded-md text-sm font-medium">Projects</Link>
+            <Link href="#experience" className="text-white px-3 py-2 rounded-md text-sm font-medium">Experience</Link>
             <Link href="/archievement" className="text-white px-3 py-2 rounded-md text-sm font-medium">Achievement</Link>
             <Link href="/blog" className="text-white px-3 py-2 rounded-md text-sm font-medium">Blog</Link>
           </div>
