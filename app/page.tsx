@@ -23,6 +23,16 @@ export default function Index() {
           </main>
         </div>
       </div>
+      <div id="project" className="flex justify-center py-96 min-h-screen">
+          <h1>
+
+          </h1>
+      </div>
+      <div id="experience" className="flex justify-center py-96 min-h-screen">
+          <h1>
+            
+          </h1>
+      </div>
       <Footer />
     </>
   );

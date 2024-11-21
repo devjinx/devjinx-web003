@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#1a252f]">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+<nav className="bg-[#1a252f] fixed top-0 left-0 w-full z-50">
+  <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-center sm:justify-between">
           
           {/* Mobile Hamburger Menu */}
@@ -49,9 +49,9 @@ const Navbar = () => {
       <div className={`sm:hidden overflow-hidden transition-all duration-1000 ease-in-out ${ isMobileMenuOpen ? 'max-h-screen' : 'max-h-0'}`} id="mobile-menu">
         <div className="space-y-1 px-2 pt-2 pb-3">
           <Link href="/" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Home</Link>
-          <Link href="#" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">About</Link>
-          <Link href="#" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Projects</Link>
-          <Link href="#" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Experience</Link>
+          <Link href="#about" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">About</Link>
+          <Link href="#project" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Projects</Link>
+          <Link href="#experience" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Experience</Link>
           <Link href="/archievement" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Achievement</Link>
           <Link href="/blog" className="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">Blog</Link>
         </div>
