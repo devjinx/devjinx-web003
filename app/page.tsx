@@ -24,7 +24,7 @@ export default function Index() {
       </section>
 
       {/* Education Section */}
-          <section id="education" className="flex flex-col justify-center items-center py-64 min-h-screen bg-[#2c3e50]">
+          <section id="education" className="flex flex-col justify-center items-center py-32 min-h-screen bg-[#2c3e50]">
             <h2 className="text-4xl font-bold text-white text-center mb-8">Education</h2>
             <ol className="relative border-s border-gray-200 dark:border-gray-500">
               <li className="mb-10 ms-4">
