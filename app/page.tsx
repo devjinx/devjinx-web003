@@ -43,18 +43,28 @@ export default function Index() {
           </section>
     
       {/* Projects Section */}
-      <section id="project" className="flex justify-center py-96 min-h-screen bg-[#2c3e50]">
-        <div className="max-w-screen-lg px-4 mx-auto">
-          <h2 className="text-4xl font-bold mb-2 text-white">My Projects</h2>
-          <p className="text-xl mb-4 text-white">
-            Here are some of the projects I've worked on:
-          </p>
-          <ul className="list-disc pl-6 text-white">
-            <li>Project 1: Description</li>
-            <li>Project 2: Description</li>
-            <li>Project 3: Description</li>
-          </ul>
-        </div>
+      <section id="project" className="flex flex-col justify-center items-center py-32 min-h-screen ">
+            <h2 className="text-4xl font-bold text-black text-center mb-8">My Project</h2>
+            <ol className="relative border-s border-gray-200 dark:border-gray-500">
+              <li className="mb-10 ms-4">
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-200"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-black">2024-2025</time>
+                <h3 className="text-lg font-semibold text-black">Hope 4.0</h3>
+                <p className="text-base font-normal text-black">Frontend Developer Mobile App</p>
+              </li>
+              <li className="mb-5 ms-4">
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-200"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-black">2023 - 2024</time>
+                <h3 className="text-lg font-semibold text-black">Lamy(Aona Coltd) Website</h3>
+                <p className="text-base font-normal text-black">Frontend Developer Website</p>
+              </li>
+              <li className="mb-5 ms-4">
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-200"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-black">2020 - 2025</time>
+                <h3 className="text-lg font-semibold text-black">Devjinx Website</h3>
+                <p className="text-base font-normal text-black">Full-Stack Developer Web app</p>
+              </li>
+            </ol>
       </section>
 
       {/* Experience Section */}
